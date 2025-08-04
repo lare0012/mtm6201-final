@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cats of Ottawa</title>
+  <meta name="description" content="Adopt a cat from Cats of Ottawa. We rescue, rehabilitate, and rehome cats in the Ottawa-Gatineau area. Find your perfect feline companion today.">
+  <link rel="icon" type="image/png" href="images/footer-logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+  <main class="container-fluid p-0 main-container">
+    <!-- Decorative Background Elements -->
+    <img src="images/Ellipse 1.png" alt="" class="position-absolute ellipse-1" aria-hidden="true">
+    <img src="images/Ellipse 2.png" alt="" class="position-absolute ellipse-2" aria-hidden="true">
+
+    <!-- Header Navigation -->
+    <header>
+      <nav class="navbar shadow-lg mt-3 mb-4 custom-navbar" role="navigation" aria-label="Main navigation">
+        <div class="container-fluid px-3">
+          <div class="d-flex align-items-center">
+            <a href="index.html" class="d-flex align-items-center text-decoration-none">
+              <img src="images/navbar-logo.png" alt="Cats of Ottawa Logo" class="navbar-logo">
+              <p class="navbar-brand mb-0 ms-2 navbar-title">Cats of Ottawa</p>
+            </a>
+          </div>
+          
+          <!-- Desktop Navigation Menu -->
+          <ul class="navbar-nav d-none" role="menubar">
+            <li class="nav-item" role="none">
+              <a class="nav-link active" href="index.html" role="menuitem" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a class="nav-link" href="adopt.html" role="menuitem">Adopt</a>
+            </li>
+            <li class="nav-item" role="none">
+              <a class="nav-link" href="get-involved.html" role="menuitem">Get Involved</a>
+            </li>
+          </ul>
+          
+          <!-- Search Form -->
+          <form class="d-flex align-items-center" role="search">
+            <div class="position-relative">
+              <label for="search-input" class="visually-hidden">Search cats</label>
+              <input type="search" id="search-input" class="form-control form-control-sm search-input" placeholder="Search..." aria-label="Search cats">
+              <img src="images/magnifing-glass.png" alt="" class="position-absolute search-icon" aria-hidden="true">
+            </div>
+          </form>
+        
+          <!-- Mobile Menu Button -->
+          <div class="hamburger-container">
+            <button class="navbar-toggler border-0 p-0 hamburger-menu" type="button" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+              <span class="menu-line" aria-hidden="true"></span>
+              <span class="menu-line" aria-hidden="true"></span>
+              <span class="menu-line" aria-hidden="true"></span>
+            </button>
+            <nav class="hamburger-dropdown" id="hamburger-dropdown" role="navigation" aria-label="Mobile navigation">
+              <a href="index.html" class="dropdown-item" aria-current="page">Home</a>
+              <a href="adopt.html" class="dropdown-item">Adopt</a>
+              <a href="get-involved.html" class="dropdown-item">Get Involved</a>
+            </nav>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="position-relative mx-3 mb-4 hero-section" aria-labelledby="hero-title">
+      <div class="position-absolute hero-image-wrapper">
+        <img src="images/hero-image.png" alt="Adorable cat looking for a home" class="hero-image">
+      </div>
+      <div class="position-absolute hero-content">
+        <h1 id="hero-title" class="hero-title">Find Your Purrfect<br>Companion</h1>
+        <p class="mb-3">Save a Life. Gain a Friend for Life.</p>
+        <a href="adopt.html" class="btn btn-warning fw-semibold px-3 py-2 rounded-pill hero-btn">Find your friend</a>
+      </div>
+    </section>
+  
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section" aria-labelledby="why-choose-title">
+      <div class="why-choose-content">
+        <div class="why-choose-container">
+          <h2 id="why-choose-title" class="text-white fw-bold mb-3 why-choose-title">Why Choose<br>Cats of Ottawa?</h2>
+          <p class="text-white why-choose-description">At Ottawa Cats, we do more than just re-home we rescue, rehabilitate, and build lasting bonds between cats and caring humans. Each of our cats is nurtured in a safe environment, health-checked, and matched thoughtfully to the right family. We're local, compassionate, and deeply committed to giving every cat in Ottawa–Gatineau a second chance at life and love.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-4 how-it-works-section" aria-labelledby="how-it-works-title">
+      <div class="how-it-works-content">
+        <h2 id="how-it-works-title" class="fw-bold mb-3 how-it-works-title">How It Works?</h2>
+        <p class="how-it-works-description">Adopting with us is simple and stress-free. Start by browsing our adorable cats online, then fill out a quick adoption form. Once we review your application, we'll schedule a meet-and-greet to help you connect with the right cat. If it's a match, we'll guide you through the final steps so you can welcome your new furry friend home in no time.</p>
+      </div>
+    </section>
+
+    <!-- Featured Cats Section -->
+    <section class="mb-4 mt-5 cat-cards-section" aria-labelledby="featured-cats-title">
+      <h2 id="featured-cats-title" class="visually-hidden">Featured Cats</h2>
+      <div class="d-flex gap-3 overflow-auto cards-scroll-container" role="list" aria-label="Featured cats">
+        <article class="card border-0 shadow-sm cat-card" role="listitem">
+          <a href="adopt.html" class="text-decoration-none">
+            <div class="position-relative h-100">
+              <img src="images/meet-luna.png" alt="Luna - A beautiful cat looking for a home" class="w-100 h-100 cat-card-image">
+              <div class="position-absolute w-100 h-100 card-overlay"></div>
+              <div class="position-absolute bottom-0 start-0 end-0 p-3 d-flex justify-content-between align-items-center">
+                <h3 class="text-white cat-card-title">Meet Luna</h3>
+                <div class="bg-success rounded-circle d-flex align-items-center justify-content-center card-icon">
+                  <img src="images/arrow.png" alt="" class="arrow-icon" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article class="card border-0 shadow-sm cat-card" role="listitem">
+          <a href="adopt.html" class="text-decoration-none">
+            <div class="position-relative h-100">
+              <img src="images/meet-milo.png" alt="Milo - A handsome cat looking for a home" class="w-100 h-100 cat-card-image">
+              <div class="position-absolute w-100 h-100 card-overlay"></div>
+              <div class="position-absolute bottom-0 start-0 end-0 p-3 d-flex justify-content-between align-items-center">
+                <h3 class="text-white cat-card-title">Meet Milo</h3>
+                <div class="bg-success rounded-circle d-flex align-items-center justify-content-center card-icon">
+                  <img src="images/arrow.png" alt="" class="arrow-icon" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article class="card border-0 shadow-sm cat-card" role="listitem">
+          <a href="adopt.html" class="text-decoration-none">
+            <div class="position-relative h-100">
+              <img src="images/meet-wilow.png" alt="Willow - A graceful cat looking for a home" class="w-100 h-100 cat-card-image">
+              <div class="position-absolute w-100 h-100 card-overlay"></div>
+              <div class="position-absolute bottom-0 start-0 end-0 p-3 d-flex justify-content-between align-items-center">
+                <h3 class="text-white cat-card-title">Meet Willow</h3>
+                <div class="bg-success rounded-circle d-flex align-items-center justify-content-center card-icon">
+                  <img src="images/arrow.png" alt="" class="arrow-icon" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article class="card border-0 shadow-sm cat-card" role="listitem">
+          <a href="adopt.html" class="text-decoration-none">
+            <div class="position-relative h-100">
+              <img src="images/meet-miso.png" alt="Miso - A sweet cat looking for a home" class="w-100 h-100 cat-card-image">
+              <div class="position-absolute w-100 h-100 card-overlay"></div>
+              <div class="position-absolute bottom-0 start-0 end-0 p-3 d-flex justify-content-between align-items-center">
+                <h3 class="text-white cat-card-title">Meet Miso</h3>
+                <div class="bg-success rounded-circle d-flex align-items-center justify-content-center card-icon">
+                  <img src="images/arrow.png" alt="" class="arrow-icon" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article class="card border-0 shadow-sm cat-card" role="listitem">
+          <a href="adopt.html" class="text-decoration-none">
+            <div class="position-relative h-100">
+              <img src="images/meet-nova.png" alt="Nova - A lovely cat looking for a home" class="w-100 h-100 cat-card-image">
+              <div class="position-absolute w-100 h-100 card-overlay"></div>
+              <div class="position-absolute bottom-0 start-0 end-0 p-3 d-flex justify-content-between align-items-center">
+                <h3 class="text-white cat-card-title">Meet Nova</h3>
+                <div class="bg-success rounded-circle d-flex align-items-center justify-content-center card-icon">
+                  <img src="images/arrow.png" alt="" class="arrow-icon" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Real Stories Section -->
+    <section class="mx-3 mb-4 real-stories-section" aria-labelledby="real-stories-title">
+      <div class="real-stories-banner">
+        <video class="real-stories-video" autoplay muted loop playsinline preload="auto" aria-label="Adoption success story video">
+          <source src="images/real-stories-video.webm" type="video/webm">
+          <img src="images/real-stories.png" alt="Real adoption stories" class="real-stories-fallback">
+        </video>
+        <div class="real-stories-overlay"></div>
+        <div class="real-stories-content">
+          <h2 id="real-stories-title" class="fw-bold mb-3 real-stories-title">Real Stories:<br>Life After Adoption</h2>
+          <p class="real-stories-description">Watch one of our amazing adopters share their heartwarming journey from meeting their new cat to building a loving bond at home. Their story is a beautiful reminder of how adoption changes lives.</p>
+          <a href="get-involved.html" class="btn btn-success fw-semibold px-3 py-2 rounded-pill real-stories-btn">See More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section" role="contentinfo">
+      <div class="footer-background"></div>
+      <div class="footer-content">
+        <div class="footer-top">
+          <nav class="footer-nav-section" role="navigation" aria-label="Footer navigation">
+            <a href="#" class="footer-nav-link">About us</a>
+            <a href="#" class="footer-nav-link">Careers</a>
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </nav>
+          
+          <div class="footer-main">
+            <h3 class="footer-subscribe-title">Subscribe</h3>
+            <form class="footer-subscribe" role="search">
+              <div class="subscribe-input-group">
+                <label for="subscribe-email" class="visually-hidden">Email address</label>
+                <input type="email" id="subscribe-email" class="subscribe-input" placeholder="Enter your email" required>
+                <button type="submit" class="subscribe-btn" aria-label="Subscribe to newsletter">
+                  <img src="images/arrow.png" alt="" class="subscribe-icon" aria-hidden="true">
+                </button>
+              </div>
+            </form>
+            <p class="footer-description">Subscribe for touching rescue tales, pro adoption tips, and sneak peeks at adoptable kitties. Enter your email and help us find every whiskered friend a loving home!</p>
+          </div>
+        </div>
+        
+        <div class="footer-divider"></div>
+        
+        <div class="footer-bottom">
+          <div class="footer-social">
+            <a href="https://x.com" target="_blank" aria-label="Follow us on X (Twitter)">
+              <img src="images/twitter.png" alt="" class="social-icon" aria-hidden="true">
+            </a>
+            <a href="https://facebook.com" target="_blank" aria-label="Follow us on Facebook">
+              <img src="images/facebook.png" alt="" class="social-icon" aria-hidden="true">
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Follow us on Instagram">
+              <img src="images/instagram.png" alt="" class="social-icon" aria-hidden="true">
+            </a>
+          </div>
+          <div class="footer-copyright">
+            <small class="copyright-text">© 2025 Cat Adoption Network. All rights reserved.</small>
+          </div>
+          <div class="footer-logo-group">
+            <a href="index.html">
+              <img src="images/footer-logo.png" alt="Cat Adoption Network Logo" class="footer-logo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+  <script>
+    // Hamburger menu functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburgerBtn = document.getElementById('hamburger-btn');
+      const hamburgerDropdown = document.getElementById('hamburger-dropdown');
+      
+      hamburgerBtn.addEventListener('click', function() {
+        const isExpanded = hamburgerBtn.getAttribute('aria-expanded') === 'true';
+        hamburgerBtn.setAttribute('aria-expanded', !isExpanded);
+        hamburgerDropdown.classList.toggle('show');
+      });
+      
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function(event) {
+        if (!hamburgerBtn.contains(event.target) && !hamburgerDropdown.contains(event.target)) {
+          hamburgerBtn.setAttribute('aria-expanded', 'false');
+          hamburgerDropdown.classList.remove('show');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cats of Ottawa</title>
+  <meta name="description" content="Browse and adopt cats from Cats of Ottawa. Find your perfect feline companion from our selection of rescued cats looking for loving homes.">
+  <link rel="icon" type="image/png" href="images/footer-logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+  <main class="container-fluid p-0 main-container">
+    <!-- Decorative Background Elements -->
+    <img src="images/Ellipse 1.png" alt="" class="position-absolute ellipse-1" aria-hidden="true">
+    <img src="images/Ellipse 2.png" alt="" class="position-absolute ellipse-2" aria-hidden="true">
+
+    <!-- Header Navigation -->
+    <header>
+      <nav class="navbar shadow-lg mt-3 mb-4 custom-navbar" role="navigation" aria-label="Main navigation">
+      <div class="container-fluid px-3">
+        <div class="d-flex align-items-center">
+            <a href="index.html" class="d-flex align-items-center text-decoration-none">
+          <img src="images/navbar-logo.png" alt="Cats of Ottawa Logo" class="navbar-logo">
+          <p class="navbar-brand mb-0 ms-2 navbar-title">Cats of Ottawa</p>
+            </a>
+        </div>
+        
+          <!-- Desktop Navigation Menu -->
+          <ul class="navbar-nav d-none" role="menubar">
+            <li class="nav-item" role="none">
+              <a class="nav-link" href="index.html" role="menuitem">Home</a>
+          </li>
+            <li class="nav-item" role="none">
+              <a class="nav-link active" href="adopt.html" role="menuitem" aria-current="page">Adopt</a>
+          </li>
+            <li class="nav-item" role="none">
+              <a class="nav-link" href="get-involved.html" role="menuitem">Get Involved</a>
+          </li>
+        </ul>
+        
+          <!-- Search Form -->
+        <form class="d-flex align-items-center" role="search">
+          <div class="position-relative">
+              <label for="search-input" class="visually-hidden">Search cats</label>
+              <input type="search" id="search-input" class="form-control form-control-sm search-input" placeholder="Search..." aria-label="Search cats">
+              <img src="images/magnifing-glass.png" alt="" class="position-absolute search-icon" aria-hidden="true">
+          </div>
+        </form>
+      
+          <!-- Mobile Menu Button -->
+        <div class="hamburger-container">
+            <button class="navbar-toggler border-0 p-0 hamburger-menu" type="button" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+              <span class="menu-line" aria-hidden="true"></span>
+              <span class="menu-line" aria-hidden="true"></span>
+              <span class="menu-line" aria-hidden="true"></span>
+          </button>
+            <nav class="hamburger-dropdown" id="hamburger-dropdown" role="navigation" aria-label="Mobile navigation">
+            <a href="index.html" class="dropdown-item">Home</a>
+              <a href="adopt.html" class="dropdown-item" aria-current="page">Adopt</a>
+              <a href="get-involved.html" class="dropdown-item">Get Involved</a>
+            </nav>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="position-relative mx-3 mb-4 adopt-hero-section" aria-labelledby="adopt-hero-title">
+      <div class="adopt-hero-content text-center">
+        <h2 id="adopt-hero-title" class="adopt-hero-title">Pet Gallery</h2>
+        <h3 class="adopt-hero-subtitle">Find your purrfect Match</h3>
+        
+        <!-- Search Bar -->
+        <div class="adopt-search-container">
+          <div class="position-relative adopt-search-wrapper">
+            <label for="adopt-search-input" class="visually-hidden">Search for your companion</label>
+            <input type="search" id="adopt-search-input" class="form-control adopt-search-input" placeholder="Find your companion" aria-label="Search for your companion">
+            <img src="images/magnifing-glass.png" alt="" class="position-absolute adopt-search-icon" aria-hidden="true">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cat Gallery Section -->
+    <section class="mb-4 cat-gallery-section" aria-labelledby="cat-gallery-title">
+      <h2 id="cat-gallery-title" class="visually-hidden">Available Cats for Adoption</h2>
+      <div class="container-fluid">
+        <div class="row g-4" role="list" aria-label="Available cats">
+          <!-- Oreo Cat Card -->
+          <article class="col-12 col-md-6 col-lg-4" role="listitem">
+            <div class="cat-card bg-white rounded shadow-sm border-0 overflow-hidden">
+              <div class="position-relative">
+                <div class="cat-image-container">
+                  <img src="images/meet-oreo.webp" alt="Oreo - A playful 1-year-old tuxedo cat" class="cat-card-image">
+                </div>
+              </div>
+              
+              <div class="p-3">
+                <h3 class="cat-card-title">Meet Oreo</h3>
+                <div class="d-flex align-items-start justify-content-between">
+                  <p class="cat-card-description text-muted mb-0 flex-grow-1">Oreo is a playful 1-year-old tuxedo cat full of energy and charm. He loves chasing toys, snuggling in blankets, and following you from room to room.</p>
+                  <img src="images/arrow.png" alt="View details" class="ms-2 mt-1" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Luna Cat Card -->
+          <article class="col-12 col-md-6 col-lg-4" role="listitem">
+            <div class="cat-card bg-white rounded shadow-sm border-0 overflow-hidden">
+              <div class="position-relative">
+                <div class="cat-image-container">
+                  <img src="images/meet-luna.png" alt="Luna - A gentle 2-year-old tabby cat" class="cat-card-image w-100 h-100 object-fit-cover">
+                </div>
+              </div>
+              
+              <div class="p-3">
+                <h3 class="cat-card-title">Meet Luna</h3>
+                <div class="d-flex align-items-start justify-content-between">
+                  <p class="cat-card-description text-muted mb-0 flex-grow-1">Luna is a gentle 2-year-old tabby cat who loves quiet moments and gentle pets. She enjoys sunbathing and curling up in cozy spots around the house.</p>
+                  <img src="images/arrow.png" alt="View details" class="ms-2 mt-1" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Willow Cat Card -->
+          <article class="col-12 col-md-6 col-lg-4" role="listitem">
+            <div class="cat-card bg-white rounded shadow-sm border-0 overflow-hidden">
+              <div class="position-relative">
+                <div class="cat-image-container">
+                  <img src="images/meet-wilow.png" alt="Willow - A graceful 3-year-old grey cat" class="cat-card-image w-100 h-100 object-fit-cover">
+                </div>
+              </div>
+              
+              <div class="p-3">
+                <h3 class="cat-card-title">Meet Willow</h3>
+                <div class="d-flex align-items-start justify-content-between">
+                  <p class="cat-card-description text-muted mb-0 flex-grow-1">Willow is a graceful 3-year-old grey cat with striking yellow eyes. She's independent but affectionate, and loves to explore high places.</p>
+                  <img src="images/arrow.png" alt="View details" class="ms-2 mt-1" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Milo Cat Card -->
+          <article class="col-12 col-md-6 col-lg-4" role="listitem">
+            <div class="cat-card bg-white rounded shadow-sm border-0 overflow-hidden">
+              <div class="position-relative">
+                <div class="cat-image-container">
+                  <img src="images/meet-milo.png" alt="Milo - An adventurous orange tabby" class="cat-card-image w-100 h-100 object-fit-cover">
+                </div>
+              </div>
+              
+              <div class="p-3">
+                <h3 class="cat-card-title">Meet Milo</h3>
+                <div class="d-flex align-items-start justify-content-between">
+                  <p class="cat-card-description text-muted mb-0 flex-grow-1">Milo is an adventurous orange tabby who loves outdoor exploration. He's friendly with other animals and enjoys climbing and playing with interactive toys.</p>
+                  <img src="images/arrow.png" alt="View details" class="ms-2 mt-1" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Nova Cat Card -->
+          <article class="col-12 col-md-6 col-lg-4" role="listitem">
+            <div class="cat-card bg-white rounded shadow-sm border-0 overflow-hidden">
+              <div class="position-relative">
+                <div class="cat-image-container">
+                  <img src="images/meet-nova.png" alt="Nova - A sweet golden cat" class="cat-card-image w-100 h-100 object-fit-cover">
+                </div>
+              </div>
+              
+              <div class="p-3">
+                <h3 class="cat-card-title">Meet Nova</h3>
+                <div class="d-flex align-items-start justify-content-between">
+                  <p class="cat-card-description text-muted mb-0 flex-grow-1">Nova is a sweet golden cat who adores human companionship. She's gentle with children and loves to be brushed and pampered.</p>
+                  <img src="images/arrow.png" alt="View details" class="ms-2 mt-1" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Miso Cat Card -->
+          <article class="col-12 col-md-6 col-lg-4" role="listitem">
+            <div class="cat-card bg-white rounded shadow-sm border-0 overflow-hidden">
+              <div class="position-relative">
+                <div class="cat-image-container">
+                  <img src="images/meet-miso.png" alt="Miso - A cozy orange tabby" class="cat-card-image w-100 h-100 object-fit-cover">
+                </div>
+              </div>
+              
+              <div class="p-3">
+                <h3 class="cat-card-title">Meet Miso</h3>
+                <div class="d-flex align-items-start justify-content-between">
+                  <p class="cat-card-description text-muted mb-0 flex-grow-1">Miso is a cozy orange tabby who loves to sleep and cuddle. She's perfect for quiet homes and enjoys soft blankets and gentle attention.</p>
+                  <img src="images/arrow.png" alt="View details" class="ms-2 mt-1" aria-hidden="true">
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Found a Furry Friend Section -->
+    <section class="found-friend-section mb-4" aria-labelledby="found-friend-title">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <div class="text-center">
+              <h2 id="found-friend-title" class="found-friend-title fw-bold mb-4">Found a Furry Friend You Love?</h2>
+              <p class="found-friend-description">Every cat deserves a warm, loving home maybe yours is the one they've been waiting for. Browse the adorable cats above, learn their stories, and when you're ready, take the next step toward adoption. Your new best friend might be just a paw away.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Comment Section -->
+    <section class="comment-section mb-4" aria-labelledby="comment-section-title">
+      <h2 id="comment-section-title" class="visually-hidden">Community Comments</h2>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <!-- Existing Comment -->
+            <article class="comment-card bg-white rounded shadow-sm mb-4">
+              <div class="p-4">
+                <div class="d-flex align-items-start mb-3">
+                  <div class="comment-avatar me-3">
+                    <img src="images/ollie-owner.jpg" alt="Rihanna Josephine's profile picture" class="rounded-circle">
+                  </div>
+                  <div class="flex-grow-1">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <h3 class="mb-1 fw-semibold">Rihanna Josephine</h3>
+                        <p class="text-muted mb-2">Rihanna Josephine added a comment 2 hours ago</p>
+                      </div>
+                      <div class="comment-options">
+                        <button class="btn btn-link p-0" aria-label="Comment options">
+                          <svg width="5" height="20" viewBox="0 0 5 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <circle cx="2.5" cy="2.5" r="2.5" fill="black"/>
+                            <circle cx="2.5" cy="10" r="2.5" fill="black"/>
+                            <circle cx="2.5" cy="17.5" r="2.5" fill="black"/>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <p class="comment-text mb-0">Adopting my sweet tabby, Ollie, was the best decision I ever made!</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Comment Input -->
+            <form class="comment-input-card bg-white rounded shadow-sm">
+              <div class="p-4">
+                <div class="d-flex align-items-center">
+                  <div class="comment-input-wrapper flex-grow-1 me-3">
+                    <label for="comment-input" class="visually-hidden">Type your comment</label>
+                    <input type="text" id="comment-input" class="form-control comment-input" placeholder="Type your comment here |" aria-label="Type your comment">
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <button type="button" class="btn btn-link me-3 p-0" aria-label="Attach file">
+                      <img src="images/pin.png" alt="" aria-hidden="true">
+                    </button>
+                    <button type="submit" class="btn publish-btn" aria-label="Publish comment">Publish</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section" role="contentinfo">
+      <div class="footer-background"></div>
+      <div class="footer-content">
+        <div class="footer-top">
+          <nav class="footer-nav-section" role="navigation" aria-label="Footer navigation">
+            <a href="#" class="footer-nav-link">About us</a>
+            <a href="#" class="footer-nav-link">Careers</a>
+            <a href="#" class="footer-nav-link">Contact us</a>
+          </nav>
+          
+          <div class="footer-main">
+            <h3 class="footer-subscribe-title">Subscribe</h3>
+            <form class="footer-subscribe" role="search">
+              <div class="subscribe-input-group">
+                <label for="subscribe-email" class="visually-hidden">Email address</label>
+                <input type="email" id="subscribe-email" class="subscribe-input" placeholder="Enter your email" required>
+                <button type="submit" class="subscribe-btn" aria-label="Subscribe to newsletter">
+                  <img src="images/arrow.png" alt="" class="subscribe-icon" aria-hidden="true">
+                </button>
+              </div>
+            </form>
+            <p class="footer-description">Subscribe for touching rescue tales, pro adoption tips, and sneak peeks at adoptable kitties. Enter your email and help us find every whiskered friend a loving home!</p>
+          </div>
+        </div>
+        
+        <div class="footer-divider"></div>
+        
+        <div class="footer-bottom">
+          <div class="footer-social">
+            <a href="https://x.com" target="_blank" aria-label="Follow us on X (Twitter)">
+              <img src="images/twitter.png" alt="" class="social-icon" aria-hidden="true">
+            </a>
+            <a href="https://facebook.com" target="_blank" aria-label="Follow us on Facebook">
+              <img src="images/facebook.png" alt="" class="social-icon" aria-hidden="true">
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Follow us on Instagram">
+              <img src="images/instagram.png" alt="" class="social-icon" aria-hidden="true">
+            </a>
+          </div>
+          <div class="footer-copyright">
+            <small class="copyright-text">© 2025 Cat Adoption Network. All rights reserved.</small>
+          </div>
+          <div class="footer-logo-group">
+            <a href="index.html">
+            <img src="images/footer-logo.png" alt="Cat Adoption Network Logo" class="footer-logo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+  <script>
+    // Hamburger menu functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const hamburgerBtn = document.getElementById('hamburger-btn');
+      const hamburgerDropdown = document.getElementById('hamburger-dropdown');
+      
+      hamburgerBtn.addEventListener('click', function() {
+        const isExpanded = hamburgerBtn.getAttribute('aria-expanded') === 'true';
+        hamburgerBtn.setAttribute('aria-expanded', !isExpanded);
+        hamburgerDropdown.classList.toggle('show');
+      });
+      
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function(event) {
+        if (!hamburgerBtn.contains(event.target) && !hamburgerDropdown.contains(event.target)) {
+          hamburgerBtn.setAttribute('aria-expanded', 'false');
+          hamburgerDropdown.classList.remove('show');
+        }
+      });
+    });
+  </script>
+</body>
+</html> 
